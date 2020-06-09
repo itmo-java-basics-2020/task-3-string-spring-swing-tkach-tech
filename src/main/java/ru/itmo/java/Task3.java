@@ -35,7 +35,8 @@ public class Task3 {
             return inputArray[0];
         }
 
-        int firstMax = Integer.MIN_VALUE, secondMax = Integer.MIN_VALUE;
+        int firstMax = Integer.MIN_VALUE;
+        int secondMax = Integer.MIN_VALUE;
         for (int value : inputArray) {
             if (value > firstMax) {
                 firstMax = value;
